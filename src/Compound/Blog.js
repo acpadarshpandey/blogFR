@@ -100,6 +100,7 @@ const Blog =()=>{
          body:" ",
      }
      const[currentblog,setCurrentblog]=useState(intialState);
+     
 
      const editpost=(blog)=>{
          setEditing(true);
@@ -116,7 +117,7 @@ const Blog =()=>{
      }
 
     return(
-        <div>
+        <div>{ }
       <Display blogs={blogs} editpost={editpost}
       delpost={delpost}
        pagination={pagination}/>
